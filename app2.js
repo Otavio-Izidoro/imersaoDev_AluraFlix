@@ -96,7 +96,7 @@ setTimeout(function() {
 function atackL(){
     let ep = document.getElementById("ep0").value;
     var site = "https://animesaria.com/anime/16498/shingeki_no_kyojin/episodio/"
-    if(!ep) ep = 1
+    if(!ep || ep <=0) ep = 1
     var url = pegaLink(ep, site);
    
     window.open(url)
@@ -104,7 +104,7 @@ function atackL(){
 function jujutsuL(){
     let ep = document.getElementById("ep1").value;
     var site = "https://animesaria.com/anime/40748/jujutsu_kaisen_tv/episodio/"
-    if(!ep) ep = 1
+    if(!ep || ep <=0) ep = 1
     var url = pegaLink(ep, site);
    
     window.open(url)
@@ -112,7 +112,7 @@ function jujutsuL(){
 function steinsL(){
     let ep = document.getElementById("ep2").value;
     var site = "https://animesaria.com/anime/9253/steins_gate/episodio/"
-    if(!ep) ep = 1
+    if(!ep || ep <=0) ep = 1
     var url = pegaLink(ep, site);
    
     window.open(url)
@@ -120,7 +120,7 @@ function steinsL(){
 function bokuL(){
     let ep = document.getElementById("ep3").value;
     var site = "https://animesaria.com/anime/31964/boku_no_hero_academia/episodio/"
-    if(!ep) ep = 1
+    if(!ep || ep <=0) ep = 1
     var url = pegaLink(ep, site);
    
     window.open(url)
@@ -133,7 +133,7 @@ function yourL(){
 function kimiL(){
     let ep = document.getElementById("ep5").value;
     var site = "https://animesaria.com/anime/23273/shigatsu_wa_kimi_no_uso/episodio/"
-    if(!ep) ep = 1
+    if(!ep || ep <=0) ep = 1
     var url = pegaLink(ep, site);
    
     window.open(url)
@@ -141,7 +141,7 @@ function kimiL(){
 function narutoL(){
     let ep = document.getElementById("ep6").value;
     var site = "https://animesaria.com/anime/1735/naruto_shippuuden/episodio/"
-    if(!ep) ep = 1
+    if(!ep || ep <=0) ep = 1
     var url = pegaLink(ep, site);
    
     window.open(url)
@@ -149,7 +149,7 @@ function narutoL(){
 function erasedL(){
     let ep = document.getElementById("ep7").value;
     var site = "https://animesaria.com/anime/31043/boku_dake_ga_inai_machi/episodio/"
-    if(!ep) ep = 1
+    if(!ep || ep <=0) ep = 1
     var url = pegaLink(ep, site);
    
     window.open(url)
@@ -164,7 +164,7 @@ function pancreasL(){
 function stoneL(){
     let ep = document.getElementById("ep9").value;
     var site = "https://animesaria.com/anime/38691/dr_stone/episodio/"
-    if(!ep) ep = 1
+    if(!ep || ep <=0) ep = 1
     var url = pegaLink(ep, site);
    
     window.open(url)
@@ -172,7 +172,7 @@ function stoneL(){
 function atack4L(){
     let ep = document.getElementById("ep10").value;
     var site = "https://animesaria.com/anime/40028/shingeki_no_kyojin_the_final_season/episodio/"
-    if(!ep) ep = 1
+    if(!ep || ep <=0) ep = 1
     var url = pegaLink(ep, site);
    
     window.open(url)
